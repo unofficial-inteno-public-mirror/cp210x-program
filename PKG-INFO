@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: cp210x-program
+Version: 1.0
+Summary: Provides access to the EEPROM in an Silabs CP210x
+Home-page: http://cp210x-program.sourceforge.net/
+Author: Petr Tesařík
+Author-email: cp210x@tesarici.cz
+License: GNU LGPL
+Description: 
+        The goal of this library is to provide access to the EEPROM of an Silabs CP210x
+        under Linux. 
+        
+        The CP210x is an USB-to-serial chip used in a lot of USB devices (similar to
+        FTDIs and PL2303). The CP210x has a EEPROM on the chip which can be programmed
+        via USB. Silabs provides already a library and gui programm to program this
+        EEPROM, but only for windows. 
+        
+        For more information see:
+        * http://www.silabs.com/tgwWebApp/public/web_content/products/Microcontrollers/Interface/en/interface.htm
+        * http://www.silabs.com/public/documents/tpub_doc/anote/Microcontrollers/Interface/en/an144.pdf
+        
+        Requires:
+        * libusb: http://libusb.sourceforge.net/
+        * ctypes: http://starship.python.net/crew/theller/ctypes/
+        
+Platform: POSIX
+Classifier: License :: OSI-Approved Open Source :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Intended Audience :: Manufacturing
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: MacOS :: MacOS X
